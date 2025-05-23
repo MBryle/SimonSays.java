@@ -13,7 +13,6 @@ public class SimonSays {
       simonPattern = scnr.next();
       userPattern  = scnr.next();
 
-      /* Your solution goes here  */
       for (i = 0; userPattern.charAt(i) == simonPattern.charAt(i); ++i) {
       userScore = userScore +1;
          if (userPattern.charAt(i) != simonPattern.charAt(i)){
